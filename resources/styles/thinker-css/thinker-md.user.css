@@ -1,0 +1,52 @@
+#preview, textarea {
+    width: 100%;
+    padding: 15px
+}
+
+textarea {
+    height: 200px;
+    resize: none
+}
+
+#preview {
+    height: auto;
+    min-height: 200px;
+    margin: 5px 0;
+    border: 1px solid #999
+}
+
+.md-editor > .md-header.btn-toolbar {
+    padding: 2px 0;
+    background: #FFFFFF;
+}
+
+.md-editor > textarea {
+    background: #ededed;
+}
+
+.md-editor.active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #cccccc;
+}
+
+/**
+ * 修正全屏按钮位置
+ */
+.md-editor.md-fullscreen-mode .md-fullscreen-controls a {
+    display: inline !important;
+}
+.md-editor > .md-full-preview .md-full-preview-body .md-full-preview-inner,
+.md-editor > .md-preview{
+    background: transparent !important;
+}
+.md-editor .md-full-preview{
+    background:#FFFFFF !important;
+}
+
+code *{
+    font-size: 14px !important;
+}
+blockquote{
+    font-size: 14px;
+}
